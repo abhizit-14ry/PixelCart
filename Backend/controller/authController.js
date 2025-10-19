@@ -71,3 +71,5 @@ export const logOut = async(req,res)=>{
         return res.status(500).json({message:`logOut error ${error}`})
     }
 }
+
+
